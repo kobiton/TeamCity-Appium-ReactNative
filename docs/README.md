@@ -1,20 +1,22 @@
 # Integrating Kobiton into TeamCity mobile application development pipeline
 ## Table of contents
-- [A. Integrating Kobiton with TeamCity](#a-integrating-kobiton-with-TeamCity)
-    - [1. Preparation](#1-preparation)
-        - [1.1. Getting Kobiton Username and API key](#11-getting-kobiton-username-and-api-key)
-        - [1.2. Samples](#12-samples)
-        - [1.3. Execution environment](#13-execution-environment)
-    - [2. Setup](#2-setup)
-        - [2.1. Getting started](#21-getting-started)
-        - [2.2. Setting Kobiton Username and API Key](#22-setting-kobiton-username-and-api-key)
-        - [2.3. Setting Kobiton device desired capabilities](#23-setting-kobiton-device-desired-capabilities)
-        - [2.4. Configuring TeamCity project](#24-configuring-teamcity-project)
-    - [3. Automation test execution](#3-automation-test-execution)
-- [B. Test session details](#b-test-session-details)
-    - [1. Viewing test session details on Kobiton website](#1-viewing-test-session-details-on-kobiton-website)
-    - [2. Fetching test session details using Kobiton REST API](#2-fetching-test-session-details-using-kobiton-rest-api)
-- [C. Feedback](#c-feedback)
+- [Integrating Kobiton into TeamCity mobile application development pipeline](#integrating-kobiton-into-teamcity-mobile-application-development-pipeline)
+    - [Table of contents](#table-of-contents)
+    - [A. Integrating Kobiton with TeamCity](#a-integrating-kobiton-with-teamcity)
+        - [1. Preparation](#1-preparation)
+            - [1.1. Getting Kobiton Username and API key](#11-getting-kobiton-username-and-api-key)
+            - [1.2. Samples](#12-samples)
+            - [1.3. Execution environment](#13-execution-environment)
+        - [2. Setup](#2-setup)
+            - [2.1 Getting started](#21-getting-started)
+            - [2.2. Setting Kobiton Username and API key](#22-setting-kobiton-username-and-api-key)
+            - [2.3. Setting Kobiton device desired capabilities](#23-setting-kobiton-device-desired-capabilities)
+            - [2.4. Configuring TeamCity project](#24-configuring-teamcity-project)
+        - [3. Automation test execution](#3-automation-test-execution)
+    - [B. Test session details](#b-test-session-details)
+        - [1. Viewing test session details on Kobiton website](#1-viewing-test-session-details-on-kobiton-website)
+        - [2. Fetching test session details using Kobiton REST API](#2-fetching-test-session-details-using-kobiton-rest-api)
+    - [C. Feedback](#c-feedback)
 
 ## A. Integrating Kobiton with TeamCity
 ### 1. Preparation
@@ -189,7 +191,7 @@ Your test session can be viewed on Kobiton website. Follow these steps below
 
 Kobiton has already provided samples written in NodeJS to get session information, commands using Kobiton REST API.
 
-Refer to [Kobiton sample for REST API](https://github.com/kobiton/samples/tree/master/kobiton-rest-api) for instructions.
+Refer to [Kobiton sample for REST API](https://github.com/kobiton/samples/tree/master/kobiton-rest-api/get-session-data-and-commands) for instructions.
 
 ## C. Feedback
 
